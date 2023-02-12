@@ -8,7 +8,7 @@ register:
     sudo gitlab-runner register
 
     https://repos.21-school.ru
-    UtBjy5VSpaDCTysEWRFX
+    you_gitlab_key
     -
     build,style,test,deploy,notify
     -
