@@ -1,4 +1,4 @@
-#include "s21_cat.h"
+#include "sfleta_cat.h"
 void printNonReadableChar(char c, int *NonBlankLineCount, int *everyLineCount) {
     if (c < -96) {
     c = c + 192;
@@ -111,7 +111,7 @@ void buildOutput(const char** filePathArr, size_t filesCount) {
     }
 }
 
-void s21_cat(int argc, char const *argv[]) {
+void sfleta_cat(int argc, char const *argv[]) {
     if (argc > 1) {
         const char* filePathArr[32];
         int i = 1;
@@ -178,6 +178,6 @@ void s21_cat(int argc, char const *argv[]) {
 }
 
 int main(int argc, char const *argv[]) {
-    s21_cat(argc, argv);
+    sfleta_cat(argc, argv);
     return 0;
 }

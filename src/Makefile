@@ -1,14 +1,14 @@
-.PHONY: all clean check test s21_cat s21_grep
+.PHONY: all clean check test sfleta_cat sfleta_grep
 
 default: all
 
-all: s21_cat s21_grep
+all: sfleta_cat sfleta_grep
 
-s21_cat:
-	make s21_cat -C cat/
+sfleta_cat:
+	make sfleta_cat -C cat/
 
-s21_grep:
-	make s21_grep -C grep/
+sfleta_grep:
+	make sfleta_grep -C grep/
 
 clean:
 	make clean -C cat/

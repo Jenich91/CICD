@@ -1,4 +1,4 @@
-#include "s21_grep.h"
+#include "sfleta_grep.h"
 
 void buildOutput(const char** filePathArr, size_t filesCount,
                  regex_t* redexArr, size_t redexCount, int emptyPatternFlag) {
