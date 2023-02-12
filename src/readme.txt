@@ -7,8 +7,8 @@ install:
 register:
     sudo gitlab-runner register
 
-    https://repos.21-school.ru
-    you_gitlab_key
+    gitlab link
+    your_gitlab_key
     -
     build,style,test,deploy,notify
     -
@@ -30,24 +30,3 @@ clear:
     Включить дополнительный адаптер внутренняя сеть
     Задать ip 192.168.1.2 машины_2 отредактировав конфиг netplan
     дать права в том числе на запись - sudo chmod -R 777 /usr/local/bin/
-
-Links:
-01:
-https://repos.21-school.ru/students/DO6_CICD.ID_356283/sfleta_student.21_school.ru/DO6_CICD-0/-/jobs/170047
-02:
-https://repos.21-school.ru/students/DO6_CICD.ID_356283/sfleta_student.21_school.ru/DO6_CICD-0/-/jobs/170097
-03:
-https://repos.21-school.ru/students/DO6_CICD.ID_356283/sfleta_student.21_school.ru/DO6_CICD-0/-/pipelines/73945
-https://repos.21-school.ru/students/DO6_CICD.ID_356283/sfleta_student.21_school.ru/DO6_CICD-0/-/pipelines/73946
-04:
-https://repos.21-school.ru/students/DO6_CICD.ID_356283/sfleta_student.21_school.ru/DO6_CICD-0/-/jobs/170443
-https://repos.21-school.ru/students/DO6_CICD.ID_356283/sfleta_student.21_school.ru/DO6_CICD-0/-/jobs/170278
-05:
-https://repos.21-school.ru/students/DO6_CICD.ID_356283/sfleta_student.21_school.ru/DO6_CICD-0/-/jobs/172528
-https://repos.21-school.ru/students/DO6_CICD.ID_356283/sfleta_student.21_school.ru/DO6_CICD-0/-/jobs/172536
-06:
-https://repos.21-school.ru/students/DO6_CICD.ID_356283/sfleta_student.21_school.ru/DO6_CICD-0/-/pipelines/77857
-https://repos.21-school.ru/students/DO6_CICD.ID_356283/sfleta_student.21_school.ru/DO6_CICD-0/-/pipelines/77861
-
-bot name - @sfleta_notification_bot
-Images - https://disk.yandex.ru/d/EDuHx4xf9uKuEA
